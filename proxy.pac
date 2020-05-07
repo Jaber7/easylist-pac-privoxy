@@ -235,6 +235,13 @@ var good_da_host_exceptions_exact_flag = 39 > 0 ? true : false;  // test for non
 // 2050 rules:
 var bad_da_host_JSON = { "jobthread.com": null,
 "content.ad": null,
+"www.googletagservices.com": null,
+"secure.quantserve.com": null,
+"tpc.googlesyndication.com": null,
+"googleads.g.doubleclick.net": null,
+"pagead2.googlesyndication.com": null,
+"www.google-analytics.com": null,
+"sb.scorecardresearch.com": null,
 "webvisor.ru": null,
 "nastydollars.com": null,
 "adziff.com": null,
