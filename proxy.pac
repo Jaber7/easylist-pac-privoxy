@@ -236,6 +236,7 @@ var good_da_host_exceptions_exact_flag = 39 > 0 ? true : false;  // test for non
 var bad_da_host_JSON = { "jobthread.com": null,
 "content.ad": null,
 "ilkmawgod.site": null,
+"example.com": null,
 "connection1safety.com": null,
 "www.googletagservices.com": null,
 "secure.quantserve.com": null,
