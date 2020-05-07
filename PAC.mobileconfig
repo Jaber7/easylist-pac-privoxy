@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Global HTTP Proxy</string>
+
+			<key>PayloadDisplayName</key>
+			<string>Global HTTP Proxy</string>
+
+			<key>PayloadIdentifier</key>
+			<!-- REPLACE GENERATED_UUID_01 -->
+			<string>com.apple.proxy.http.global. e5b4f17a-9004-11ea-bc55-0242ac130003</string>
+
+			<key>PayloadType</key>
+			<string>com.apple.proxy.http.global</string>
+
+			<!-- REPLACE GENERATED_UUID_01 -->
+			<key>PayloadUUID</key>
+			<string> e5b4f17a-9004-11ea-bc55-0242ac130003 </string>
+
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+
+			<key>ProxyCaptiveLoginAllowed</key>
+			<true/>
+
+			<key>ProxyPACFallbackAllowed</key>
+			<false/>
+
+			<key>ProxyPACURL</key>
+			<!-- REPLACE URL_TO_YOUR_PAC_FILE WITH THE LINK -->
+			<string>https://raw.githubusercontent.com/Jaber7/easylist-pac-privoxy/master/proxy.pac</string>
+
+			<key>ProxyType</key>
+			<string>Auto</string>
+		</dict>
+	</array>
+
+	<key>PayloadDisplayName</key>
+	<!-- ADD A NAME FOR YOUR PROFILE -->
+	<string>pacc</string>
+	
+	<key>PayloadIdentifier</key>
+	<!-- CREATE AN IDENTIFIER FOR YOUR PROFILE AND REPLACE GENERATED_UUID_02 -->
+	<string>https://raw.githubusercontent.com/Jaber7/easylist-pac-privoxy/master/PAC.mobileconfig. efa95c66-9004-11ea-bc55-0242ac130003</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+	<key>PayloadUUID</key>
+	<!-- REPLACE GENERATED_UUID_03 -->
+	<string> fcb47486-9004-11ea-bc55-0242ac130003 </string>
+
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
